@@ -27,7 +27,7 @@ There is a need for an AI-powered system that can automatically analyze, classif
 `https://your-demo-video-link.com`  
 (YouTube unlisted / Google Drive)
 
-## 📊 Presentation (optional)
+## 📊 Presentation
 
 `https://your-ppt-link.com`  
 (Google Slides / Drive)
