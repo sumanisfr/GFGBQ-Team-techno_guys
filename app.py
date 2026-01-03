@@ -56,13 +56,8 @@ st.markdown("""
 # Load trained model
 model = joblib.load("model/classifier.pkl")
 
-# Header
-st.markdown('<p class="header-title">🎯 AI-Powered Grievance Redressal System</p>', unsafe_allow_html=True)
-st.markdown('<p class="header-subtitle">Intelligent complaint analysis and automated department assignment</p>', unsafe_allow_html=True)
-
 # Sidebar
 with st.sidebar:
-    st.image("https://img.icons8.com/fluency/96/000000/complaint.png", width=80)
     st.title("📋 Information")
     st.info("""
     **How it works:**
@@ -78,6 +73,10 @@ with st.sidebar:
     
     st.divider()
     st.caption("Powered by AI & Machine Learning")
+
+# Header
+st.markdown('<p class="header-title">🎯 AI-Powered Grievance Redressal System</p>', unsafe_allow_html=True)
+st.markdown('<p class="header-subtitle">Intelligent complaint analysis and automated department assignment</p>', unsafe_allow_html=True)
 
 # Main content area
 col1, col2 = st.columns([2, 1])
