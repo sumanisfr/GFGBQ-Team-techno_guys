@@ -30,12 +30,13 @@ Government bodies receive thousands of citizen grievances daily related to infra
 
 ## 🎥 2-Minute Demonstration Video Link
 
-**Video:** https://drive.google.com/file/d/1JgoNyL8P3_maxLiWyZkCaqm6ERUKWoAG/view?usp=drive_link
+**Video:** [Watch Demo Video](https://drive.google.com/file/d/1JgoNyL8P3_maxLiWyZkCaqm6ERUKWoAG/view?usp=drive_link)
+
 ---
 
 ## 📊 PPT Link
 
-**Presentation:** https://drive.google.com/file/d/1IMmTeH1pc-VHiFHyTKeo1TVTGM7z2gVJ/view?usp=sharing
+**Presentation:** [View Presentation](https://drive.google.com/file/d/1IMmTeH1pc-VHiFHyTKeo1TVTGM7z2gVJ/view?usp=sharing)
 
 ---
 
@@ -165,11 +166,8 @@ cd GFGBQ-Team-techno_guys
 ### **2. Install Dependencies**
 
 ```bash
-# Install required packages
+# Install all required packages
 pip install -r requirements.txt
-
-# Install additional packages
-pip install plotly reportlab xlsxwriter
 ```
 
 ### **3. Train the ML Model**
@@ -238,31 +236,45 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Features
 
-### 1. Submit Complaint Interface
-![Submit Complaint](https://via.placeholder.com/800x400?text=Submit+Complaint+Interface)
-*Citizens can submit complaints with automatic AI classification and priority detection*
+### 🏠 Submit Complaint Interface
+- Citizens can submit complaints with automatic AI classification
+- Real-time priority detection based on keywords
+- Instant ticket ID generation
+- PDF report download
 
-### 2. Analytics Dashboard
-![Dashboard](https://via.placeholder.com/800x400?text=Analytics+Dashboard)
-*Real-time analytics with interactive Plotly charts showing complaint trends*
+### 📊 Analytics Dashboard
+- Real-time statistics and metrics
+- Interactive Plotly charts showing complaint trends
+- Category and priority distribution
+- Status tracking (Pending/In Progress/Resolved)
 
-### 3. Track Complaint
-![Track Complaint](https://via.placeholder.com/800x400?text=Track+Complaint)
-*Citizens can track their complaints using ticket ID*
+### 🔍 Track Complaint
+- Citizens can track complaints using ticket ID
+- View current status and progress
+- Check assigned department
+- See estimated resolution time
 
-### 4. Admin Panel
-![Admin Panel](https://via.placeholder.com/800x400?text=Admin+Panel)
-*Secure password-protected admin panel for complaint management*
+### ⚙️ Admin Panel
+- Secure password-protected management
+- View all complaints in dataframe
+- Update complaint status
+- Filter and search functionality
+- CSV export for reporting
 
-### 5. AI Classification Results
-![AI Results](https://via.placeholder.com/800x400?text=AI+Classification+Results)
-*Automatic categorization, priority assignment, and department routing*
+### 🤖 AI Classification Features
+- Automatic categorization into 6 categories
+- Priority assignment (Critical/High/Medium/Low)
+- Department routing based on category
+- Sentiment analysis for citizen emotion
+- Keyword extraction from complaints
 
-### 6. PDF Report Generation
-![PDF Report](https://via.placeholder.com/800x400?text=PDF+Report)
-*Auto-generated PDF reports with ticket ID and complaint details*
+### 📄 PDF Report Generation
+- Auto-generated professional reports
+- Unique ticket ID tracking
+- Complete complaint details
+- Department and priority information
 
 ---
 
@@ -354,7 +366,6 @@ python train_model.py
 ```bash
 # Install all dependencies
 pip install -r requirements.txt
-pip install plotly reportlab xlsxwriter
 ```
 
 **3. Port Already in Use**
